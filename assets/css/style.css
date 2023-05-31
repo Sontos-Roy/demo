@@ -248,7 +248,9 @@ body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
     -ms-border-radius: 999999999px;
     -o-border-radius: 999999999px;
 }
-
+.logo-header{
+    width: 100px;
+}
 
 /* Product Modal Start  */
 .modal.quick-view .modal-dialog {

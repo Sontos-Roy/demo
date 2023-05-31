@@ -64,6 +64,23 @@
       height: 48px;
       font-size: 11px;
     }
+    .review-main .review-overview .left-box {
+      flex-basis: 100%;
+      padding: 10px;
+    }
+    .review-main .review-overview .right-box {
+      flex-basis: 100%;
+      padding: 10px!important;
+    }
+    .details-main .custom-details-slider .product-info-main .add-bag-flex .add-bag .add-to-bag-btn {
+      height: 40px;
+      font-size: 13px;
+    }
+    .details-main .custom-details-slider .product-info-main .add-bag-flex .add-wishlist {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+    }
   }
    
   /* Small devices (landscape phones, 576px and up)*/
@@ -201,6 +218,48 @@
       .order-md-1{
         order: 1;
       }
+      .common-title h2{
+        text-align: center;
+        font-size: 22px;
+      }
+      .new-arrval-main li.nav-item{
+        margin-bottom: 10px;
+      }
+      .copyright-main {
+        margin-bottom: 4em;
+      }
+      .copyright-main p.copyright{
+        text-align: center;
+      }
+      .shop-sidebar-parent{
+        transition: none;
+      }
+      .details-main .custom-details-slider {
+        display: block;
+      }
+      .details-main .custom-details-slider .product-details {
+        width: 100%;
+      }
+      .details-main .custom-details-slider .product-info-main {
+        min-width: unset;
+        padding-right: 0;
+      }
+      .details-main .custom-details-slider .product-info-main .price{
+        font-size: 14px;
+      }
+      .details-main .custom-details-slider .product-info-main .shipping-policy .shipping-process-flex .box {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+      }
+      .details-main .custom-details-slider .product-info-main .product-title-flex .icon-box{
+        text-align: right;
+      }
+      .details-main .custom-details-slider .product-info-main .size-lists h5 {
+        font-size: 13px!important;
+      }
+      .details-main .custom-details-slider .product-info-main {
+        min-height: 600px;
+      }
   }
   /* Large devices (desktops, 992px and up)*/
   @media (min-width: 992px) {
@@ -252,12 +311,6 @@
       top: 15px;
       align-self: start;
     }
-    .details-main .custom-details-slider .product-details {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 15px;
-      align-self: start;
-    }
     .small-slider-nav .slick-slide{
       float: none;
       width: 100% !important;
@@ -265,6 +318,9 @@
     } 
     .common-title h2 {
       font-size: 35px;
+    }
+    .details-main .custom-details-slider .product-info-main {
+      padding-left: 20px;
     }
 
   }

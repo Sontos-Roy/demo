@@ -158,6 +158,9 @@ function tabFilter(){
     $("#tabFilterContent #" + tabValue).addClass("active");
     $("#" + tabValue + " .product_slider").slick("unslick").slick("refresh");
   });
+  $(".filter-toggle-btn").click(function(){
+    $(".shop-sidebar-parent").slideToggle();
+  })
 }
 
 $(document).ready(function(){

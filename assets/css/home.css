@@ -268,3 +268,95 @@ del {
 }
 
 /* Main Sections End  */
+
+/* Corporate Section Start  */
+.border-bold{
+    border-width: 3px;
+}
+.corporate-main{
+    width: 100%;
+    margin-top: 30px;
+}
+.corporate-main .corporate-inner{
+    background: rgb(0 20 195);
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+.corporate-main .corporate-inner .icon{
+    width: 80px;
+}
+.corporate-main .corporate-inner h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.corporate-main .corporate-inner .corporate-div{
+    margin-top: 10px;
+}
+.corporate-main .corporate-inner .corporate-div i{
+    font-size: 80px;
+    color: #fff;
+}
+.corporate-main .corporate-inner .corporate-div h4{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.corporate-main .corporate-inner-2{
+    margin-top: 20px;
+    
+}
+.corporate-main .corporate-inner-2 i{
+    color: rgb(0, 85, 0);
+    font-size: 40px;
+    
+}
+.corporate-main .corporate-inner-2 h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+.corporate-main .corporate-inner-2 p{
+    font-size: 11px;
+    margin: 0;
+}
+.corporate-main .corporate-inner-2 > .row{
+    align-items: center;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.corporate-main .corporate-inner-2 .col-lg-50{
+    /* height: 150px; */
+    border-right: 1px solid gray;
+}
+.corporate-main .corporate-inner-2 .col-lg-50:last-child{
+    /* height: 150px; */
+    border-right: none;
+}
+@media (min-width: 1200px) {
+    .col-lg-50{
+        width: 20%;
+    }
+}
+/* Corporate Section End  */
+/* Subscribe Section Start  */
+.subscribe-main{
+    background: #f3f3f3;
+    margin-top: 30px;
+    padding: 20px 0;
+}
+.subscribe-main h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+.subscribe-main p{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+/* Subscribe Section End */

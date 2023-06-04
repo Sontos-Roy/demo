@@ -161,7 +161,7 @@ a{
     overflow: hidden;
 }
 del{
-    color: #e60023;
+    color: #e52870;
 }
 .details-main .custom-details-slider .product-info-main .size-lists {
     width: 100%;
@@ -257,7 +257,7 @@ del{
     -o-border-radius: 20px;
 }
 .no-stock a.nav-link {
-    background: #d41f27;
+    background: #e4246e;
     color: #fff!important;
 }
 .details-main .custom-details-slider .product-info-main .size-lists ul.nav li.nav-item a.nav-link.active {
@@ -337,6 +337,7 @@ del{
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
+    padding: 14px;
 }
 .details-main .custom-details-slider .product-info-main .add-bag-flex .add-bag .add-to-bag-btn:hover {
     background: #d41f27;

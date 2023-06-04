@@ -440,7 +440,7 @@ body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
 /* Footer Start  */
 .footer-main {
     padding: 50px 0;
-    background: #2b2d42;
+    background: #e52b72;
 }
 .footer-main .footer-title {
     margin-bottom: 20px;
@@ -484,7 +484,7 @@ body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
 /* Footer Copyright  */
 .copyright-main {
     padding: 10px 0;
-    background: #3b3d56;
+    background: #e52b72;
     border-top: 1px dotted #fff;
 }
 .copyright-main p.copyright {
@@ -497,7 +497,7 @@ body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
     text-align: end;
 }
 .copyright-main p.copyright a {
-    color: #d41f27;
+    color: #ffffff;
     text-decoration: none;
 }
 

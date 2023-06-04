@@ -13,7 +13,7 @@
                         transition: all .3s;
                     }
                     .top-header {
-                        background: #282828;
+                        background: rgb(237 109 158);
                         padding: 5px 0;
                     }
                     .top-header h3 {
@@ -367,7 +367,7 @@
                         flex-basis: 55%;
                     }
                     .middle-nav .icon-sets li.nav-item .shopping-bag-main .button-sets .checkout {
-                        background: #d41f27;
+                        background: #e63176;
                         flex-basis: 43%;
                     }
                                         /* Middle Nav End  */

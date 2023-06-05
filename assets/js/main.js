@@ -168,40 +168,8 @@ $(document).ready(function(){
   AllSliders();
   tabFilter();
   shopFilters();
+//-----JS for Price Range slider-----
 
 
   
 });
-function Modal(){
-  // Get all modal buttons
-  var modalButtons = document.querySelectorAll('.customModalBtn');
-
-  // Add click event listener to each modal button
-  modalButtons.forEach(function(button) {
-    button.addEventListener('click', function() {
-      var modalId = this.getAttribute('data-modal-id');
-      var modal = document.getElementById(modalId);
-
-      // Show the modal
-      modal.classList.add('show');
-      modal.style.display = 'block';
-      modal.setAttribute('aria-hidden', 'false');
-      modal.setAttribute('aria-modal', 'true');
-    });
-  });
-
-  // Add click event listener to each modal close button
-  var modalCloseButtons = document.querySelectorAll('.modal .btn-close');
-  modalCloseButtons.forEach(function(button) {
-    button.addEventListener('click', function() {
-      var modal = this.closest('.modal');
-
-      // Hide the modal
-      modal.classList.remove('show');
-      modal.style.display = 'none';
-      modal.setAttribute('aria-hidden', 'true');
-      modal.setAttribute('aria-modal', 'false');
-    });
-  });
-}
-Modal();

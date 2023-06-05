@@ -118,6 +118,10 @@ a{
     font-size: 14px;
     color: #fff;
 }
+.details-main .custom-details-slider .product-info-main .size-lists ul.nav li.nav-item a.nav-link.active {
+    background: #4d4d4d;
+    color: #fff;
+}
 .details-main .custom-details-slider .product-info-main .product-title-flex .icon-box .pop-share-main ul.nav li.nav-item a.nav-link i {
     color: #fff;
     font-size: 15px;

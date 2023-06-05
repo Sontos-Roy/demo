@@ -167,9 +167,27 @@ $(document).ready(function(){
   Header();
   AllSliders();
   tabFilter();
-  shopFilters();
-//-----JS for Price Range slider-----
+  $("#size-select ul li a").on('click',function(){
+    $('#size-select ul li a').removeClass('active');
+    if($(this).parent('li').hasClass('no-stock')){
+      //must have
+      var Toast = Swal.mixin({
+        toast: true,
+        position: 'top-end',
+        showConfirmButton: false,
+        timer: 3000
+      });
 
-
+      Toast.fire({
+        icon: 'error',
+        title: 'Out Of Stock'
+      });
+      // toastr.success('Out Of Stock')
+    }else{
+      $(this).addClass('active');
+    }
+    
+ })
+  
   
 });

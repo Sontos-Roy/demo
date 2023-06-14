@@ -1203,7 +1203,7 @@
                                    </div>
                                  </div>
                                  <div>
-                                    <span class="MuiSlider-root MuiSlider-colorSecondary MuiSlider-sizeMedium css-1p6279n">
+                                    <!-- <span class="MuiSlider-root MuiSlider-colorSecondary MuiSlider-sizeMedium css-1p6279n">
                                         <span class="MuiSlider-rail css-b04pc9"></span><span class="MuiSlider-track css-1t2bqnt" style="left: 0%; width: 100%;"></span>
                                         <span data-index="0" data-focusvisible="false" class="MuiSlider-thumb MuiSlider-thumbSizeMedium MuiSlider-thumbColorSecondary css-by71oc" style="left: 0%; pointer-events: none;">
                                             <input
@@ -1238,13 +1238,29 @@
                                                 <span class="MuiSlider-valueLabelCircle"><span class="MuiSlider-valueLabelLabel">26900</span></span>
                                             </span>
                                         </span>
-                                    </span>
+                                    </span> -->
                                 </div>
-                                <div class="d-flex">
-                                    <p>175</p>
-                                    <p class="ms-auto">26900</p>
+                                 <div class="slider mt-4">
+                                    <div class="progress"></div>
+                                 </div>
+                                 <div class="range-input">
+                                    <input type="range" class="range-min" min="0" max="10000" value="0" step="10">
+                                    <input type="range" class="range-max" min="0" max="10000" value="10000" step="10">
+                                 </div>
+                                 <div class="price-input d-none">
+                                    <div class="field">
+                                      <input type="hidden" class="input-min" value="0">
+                                    </div>
+                                    <div class="field d-none">
+                                      <input type="hidden" class="input-max" value="10000">
+                                    </div>
+                                  </div>
+                                <div class="d-flex mt-3">
+                                    <p class="price-min-value"></p>
+                                    <p class="ms-auto price-max-value"></p>
                                  </div>
                                  <div class="d-flex"><button class="btn btn-outline-primary">Clear Filter</button></div>
+                                 
                                  
                            </div>
                         </div>

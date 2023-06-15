@@ -249,7 +249,8 @@ body ::-webkit-scrollbar-track, html ::-webkit-scrollbar-track {
     -o-border-radius: 999999999px;
 }
 .logo-header{
-    width: 140px;
+    width: 170px;
+    height: 60px;
 }
 
 /* Product Modal Start  */

@@ -413,6 +413,10 @@
     .details-main .custom-details-slider .product-details .slider-nav {
       flex-basis: 60px;
     }
+    .col-lg-20{
+      flex: 0 0 auto;
+      width: 20%;
+    }
   }
   
   /* Extra Extra large devices (large desktops, 1200px and up)*/

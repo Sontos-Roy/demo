@@ -1,0 +1,141 @@
+.breadcrum-main li.breadcrumb-item a, .breadcrum-main li.breadcrumb-item.active {
+    color: #a7a7a7;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+.userprofile-main .profile-sidebar {
+    background: #fff;
+    min-height: 100%;
+    padding: 20px;
+}
+.userprofile-main .profile-sidebar h2 {
+    font-size: 17px;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #2b2d42;
+}
+.userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link {
+    padding: 5px 0 5px 15px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    border-bottom: 1px solid #f7f7f7;
+    text-transform: capitalize;
+}
+.userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link, .userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link i {
+    color: #6c757d;
+    transition: transform .3s ease-out;
+    -webkit-transition: transform .3s ease-out;
+    -moz-transition: transform .3s ease-out;
+    -ms-transition: transform .3s ease-out;
+    -o-transition: transform .3s ease-out;
+}
+.userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link.active, .userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link.active i, .userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link:hover, .userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link:hover i {
+    color: #d41f27;
+}
+.userprofile-main .profile-sidebar .profile-menubox .nav-item .nav-link i {
+    width: 20px;
+    text-align: center;
+    margin-right: 7px;
+}
+.userprofile-main .personal-information {
+    margin-top: 30px;
+}
+.common-fieldset-main {
+    margin-bottom: 20px;
+}
+.common-fieldset-main .common-fieldset {
+    padding: 15px 19px 19px!important;
+    border: 1px solid #e9ebec!important;
+    border-radius: 4px;
+}
+.common-fieldset-main .common-fieldset legend {
+    text-align: center!important;
+    margin: 0 auto;
+    width: auto;
+    float: none;
+    padding: 4px 20px;
+    background: #e9ebec;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #102a43;
+    font-size: 15px;
+    font-weight: 600;
+}
+.userprofile-main .form-group {
+    margin-bottom: 15px;
+}
+.userprofile-main .form-check-label2, .userprofile-main .form-label {
+    color: #102a43;
+    font-size: 17px;
+    display: block;
+    position: relative;
+    font-weight: 700;
+}
+.userprofile-main .form-control {
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    background-color: #fff;
+    border: 1px solid #bcccdc;
+    height: 48px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.userprofile-main .continue-btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    background-color: #2b2d42;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    min-width: 250px;
+    margin-top: 20px;
+}
+
+/* order Page  */
+.userprofile-main .personal-information .table tr td {
+    vertical-align: middle;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.userprofile-main .personal-information .table tr:first-child td {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .3px;
+}
+.userprofile-main .double-btns {
+    margin-top: 20px;
+    text-align: center;
+}   
+.userprofile-main .double-btns .continue-btn {
+    min-width: 200px;
+    display: inline-block;
+}
+.userprofile-main .double-btns .continue-btn:first-child {
+    margin-right: 20px;
+    background: #d41f27;
+}
+.userprofile-main .form-label>[data-required=true]:after {
+    content: "*";
+    padding-left: 0.25em;
+    position: absolute;
+    color: #d41f27;
+}
